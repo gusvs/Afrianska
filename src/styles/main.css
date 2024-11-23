@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Gilroy';
+	src: local('Gilroy'), url("./src/assets/fonts/Gilroy-Regular.ttf") format('truetype');
+  }
+
+  @font-face {
+	font-family: 'Gilroy Bold';
+	src: local('Gilroy'), url("./src/assets/fonts/Gilroy-Bold.ttf") format('truetype');
+  }
+
+@font-face {
+    font-family: 'Galien';
+    src: url("./src/assets/fonts/Galien-Bold.woff2") format("woff2"),
+      url("./src/assets/fonts/Galien-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+body {
+  max-width: 1366px;
+  font-family: Gilroy;
+  margin: 0 auto;
+}
+
+hr {
+	color: #fff;
+	width: 85%;
+}
+
+.button {
+  width: 220px;
+	height: 56px;
+	background: rgba(90, 152, 208, 1);
+	border-radius: 10px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
