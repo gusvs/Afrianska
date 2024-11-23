@@ -4,18 +4,18 @@
 
 @font-face {
 	font-family: 'Gilroy';
-	src: local('Gilroy'), url("./src/assets/fonts/Gilroy-Regular.ttf") format('truetype');
+	src: local('Gilroy'), url("/src/assets/fonts/Gilroy-Regular.ttf") format('truetype');
   }
 
   @font-face {
 	font-family: 'Gilroy Bold';
-	src: local('Gilroy'), url("./src/assets/fonts/Gilroy-Bold.ttf") format('truetype');
+	src: local('Gilroy'), url("/src/assets/fonts/Gilroy-Bold.ttf") format('truetype');
   }
 
 @font-face {
     font-family: 'Galien';
-    src: url("./src/assets/fonts/Galien-Bold.woff2") format("woff2"),
-      url("./src/assets/fonts/Galien-Bold.woff") format("woff");
+    src: url("/src/assets/fonts/Galien-Bold.woff2") format("woff2"),
+      url("/src/assets/fonts/Galien-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -42,4 +42,5 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  cursor: pointer;
 }

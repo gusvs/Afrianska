@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	const orderForm = document.querySelector('.modal-form_show')
 	const orderFormCloseButton = document.querySelector('.order-form__close-button')
 	const orderFormSubmit = document.querySelector('.order-form')
-	const url = 'http://localhost:5173/index.php'
+	const url = '/server.php'
 
 	if (openFormButton) {
 
@@ -30,7 +30,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	const sendForm = async (url, data) => {
 
-		console.log(data)
 		const response = await axios({
 			url: url,
 			method: 'POST',
